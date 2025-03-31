@@ -36,4 +36,6 @@ This project is an assignment from a NUS course - DSE4211: Digital Currencies.
 
 Authors: Brandon, Jessica, Kelly, Kai Lin, Niyun
 
+Special Thanks to Prof Chen Ying and Dr Dabin Wang for their guidance.
+
 Last Updated: 5 April 2025
