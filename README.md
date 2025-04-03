@@ -1,12 +1,13 @@
 # Portfolio Optimization and Trading Strategies
 
-This project focuses on implementing and analyzing various trading strategies using machine learning models and financial indicators. The strategies are applied to a portfolio of assets, including Bitcoin (BTC) - A Digital Currency, SPY (S&P 500 ETF), TLT (iShares 20+ Year Treasury Bond ETF) and Cash. The aim is to optimize portfolio allocation and maximize returns while managing risk. We work with intraday data with a frequency of 30 minutes in order to explore potential intraday trading strategies. For BTC, 30 minutes intra-day data is available 24/7 throughout the year while for SPY and TLT, 30 minutes intra-day data is only available during US Market Hours. The list of assets in the portfolio and their intra-day closing prices from January 1, 2024 to 28 March 2025 can be found in **data/pricing_data.xlsx**. 
+This project focuses on implementing and analyzing various trading strategies using machine learning models and financial indicators. The strategies are applied to a portfolio of assets, including Bitcoin (BTC) - A Digital Currency, SPY (S&P 500 ETF), TLT (iShares 20+ Year Treasury Bond ETF) and Cash. The aim is to optimize portfolio allocation and maximize returns while managing risk. We work with intraday data with a frequency of 30 minutes in order to explore potential intraday trading strategies. For BTC, 30 minutes intra-day data is available 24/7 throughout the year while for SPY and TLT, 30 minutes intra-day data is only available during US Market Hours. The list of assets in the portfolio and their intra-day closing prices from January 1, 2024 to 1 April 2025 can be found in **data/pricing_data.xlsx**. 
 
-The portfolio performance will be evaluated during two periods: January to February 2025 (validation period, where trading algorithms updates are allowed) and 28 March 2025 (the test period). 
+The portfolio performance will be evaluated during two periods: January to February 2025 (validation period, where trading algorithms updates are allowed) and March 2025 (the test period). 
 
 We evaluated our portfolio performance with the following metrics:
 1) Total Returns
 2) Maximum Drawdown
+3) Win Rate
 
 For our portfolio strategies, we relied on the following assumptions:
 1) We do not allow for short selling.
