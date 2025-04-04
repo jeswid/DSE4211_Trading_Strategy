@@ -6,14 +6,21 @@ The portfolio performance will be evaluated during two periods: January to Febru
 
 We evaluated our portfolio performance with the following metrics:
 1) Total Returns
-2) Maximum Drawdown
-3) Win Rate
+2) Sharpe Ratio
+3) Maximum Drawdown
+4) Win Rate
+5) Annual Volatility
+6) Drawdown Patterns
+7) Number of Trades
+8) Profit per Trade
 
 For our portfolio strategies, we relied on the following assumptions:
 1) We do not allow for short selling.
 2) There is no interest on the cash held on hand.
 3) We use **close** prices for each asset class.
-4) We impose 3bps in commission fees whenever we trade SPY or TLT and impose 5bps in commission fees whenever we trade BTC. 
+4) We impose 3bps in commission fees whenever we trade SPY or TLT and impose 5bps in commission fees whenever we trade BTC.
+
+Our final trading strategy that we employed for the test period was **Random Forest with technical indicators**.
 
 ## Guide to the Repository
 To use the code, clone the repository with Git:
