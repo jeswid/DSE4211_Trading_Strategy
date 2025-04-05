@@ -40,6 +40,8 @@ pip install -r requirements.txt
 
 2) data folder: Contains historical pricing data from January 2024 to 28 March 2025 for BTC, SPY, and TLT in the xlsx file named as **pricing_data.xlsx** as well as other processed data that contains results of our portfolio strategy.
 
+In these folders, there are also archive folders. These contains results and codes of strategies that we tested but were not chosen as our ultimate trading strategy for our test period.
+
 This project is an assignment from a NUS course - DSE4211: Digital Currencies.
 
 Authors: Brandon, Jessica, Kelly, Kai Lin, Niyun
