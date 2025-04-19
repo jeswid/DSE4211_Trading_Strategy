@@ -49,7 +49,7 @@ pip install -r requirements.txt
 **Repository Structure** 
 1) src folder: Contains Jupyter Notebooks for our trading strategy.
 
-2) data folder: Contains historical pricing data from January 2024 to 28 March 2025 for BTC, SPY, and TLT in the xlsx file named as **pricing_data.xlsx** as well as other processed data that contains results of our portfolio strategy.
+2) data folder: Contains historical pricing data from January 2024 to 1 Apr 2025 for BTC, SPY, and TLT in the xlsx file named as **pricing_data.xlsx** as well as other processed data that contains results of our portfolio strategy.
 
 In these folders, there are also archive folders. These contains results and codes of strategies that we tested but were not chosen as our ultimate trading strategy for our test period.
 
