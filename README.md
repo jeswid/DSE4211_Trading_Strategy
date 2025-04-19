@@ -12,7 +12,6 @@ We evaluated our portfolio performance with the following metrics:
 5) Annual Volatility
 6) Drawdown Patterns
 7) Number of Trades
-8) Profit per Trade
 
 For our portfolio strategies, we relied on the following assumptions:
 1) We do not allow for short selling.
@@ -21,6 +20,18 @@ For our portfolio strategies, we relied on the following assumptions:
 4) We impose 3bps in commission fees whenever we trade SPY or TLT and impose 5bps in commission fees whenever we trade BTC.
 
 Our final trading strategy that we employed for the test period was **Random Forest with technical indicators**.
+
+## Results in Test Period
+| Metric        | Portfolio Performance    | 
+|--------------|--------|
+| Annual Return   | 374.13%   | 
+| Return (Test Period)   | 14.6%   | 
+| Sharpe Ratio | 5.13 | 
+| Max Drawdown | -7.2%  | 
+| Win Rate | 52.71%  | 
+| Annual Volatility | 29.52%  | 
+| Drawdown Patterns | 31  | 
+| Number of Trades | 590  | 
 
 ## Guide to the Repository
 To use the code, clone the repository with Git:
